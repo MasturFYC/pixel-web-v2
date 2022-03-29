@@ -30,7 +30,7 @@ const Layout = () => {
           borderBottomWidth={"thin"}
           borderBottomColor={"gray-200"}
           paddingX={{ base: "size-50", M: "size-200" }}
-          backgroundColor={"gray-50"}
+          backgroundColor={"gray-100"}
         >
           <Flex flex direction={"row"} columnGap={{ base: "size-10", M: "size-50" }}>
             <View width={{ base: 64, M: 90 }} alignSelf={"center"}
@@ -47,7 +47,7 @@ const Layout = () => {
         <View
           isHidden={{ base: true, L: false }}
           gridArea="sidebar"
-          backgroundColor={"gray-50"}
+          backgroundColor={"gray-100"}
           padding={"size-100"}
           borderBottomWidth={{ base: "thin", L: undefined }}
           borderBottomColor={"gray-200"}
@@ -55,7 +55,7 @@ const Layout = () => {
           <Aside />
         </View>
 
-        <View gridArea="content" backgroundColor="gray-50" height={"100%"}>
+        <View gridArea="content" backgroundColor="gray-75" height={"100%"}>
           <View paddingX={{ base: "size-75", M: "size-200", L: "size-400" }} marginTop={"size-200"}>
             <Main />
           </View>
